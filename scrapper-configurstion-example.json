@@ -8,6 +8,11 @@
       "scrappers":[
         {
           "type":"GenericScrapper",
+          "implements":[
+              {
+                  "type: "Studia3"
+              }
+           ],
           "root_urls":[
             {
               "url":"https://studia3.elka.pw.edu.pl/file/19Z/103A-CBxxx-ISP-APRO1/prob",
