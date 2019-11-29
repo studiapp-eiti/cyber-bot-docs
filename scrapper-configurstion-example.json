@@ -10,7 +10,7 @@
           "type":"GenericScrapper",
           "implements":[
               {
-                  "type: "Studia3"
+                  "type": "Studia3"
               }
            ],
           "root_urls":[
