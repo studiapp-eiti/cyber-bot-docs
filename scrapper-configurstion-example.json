@@ -16,10 +16,10 @@
           "root_urls":[
             {
               "url":"https://studia3.elka.pw.edu.pl/file/19Z/103A-CBxxx-ISP-APRO1/prob",
-              "sub_paths":[
-                "/",
-                "/laboratoria.html"
-              ]
+              "sub_paths":{
+                "Wykłady":"/",
+                "Laboratoria":"/laboratoria.html"
+              }
             }
           ]
         }
@@ -42,10 +42,10 @@
           "root_urls":[
             {
               "url":"http://www.mini.pw.edu.pl/~strozyna/dydakt",
-              "sub_paths":[
-                "/mat2-wyk",
-                "/mat2-proj"
-              ]
+              "sub_paths":{
+                "Wykłady":"/mat2-wyk",
+                "Projekt":"/mat2-proj"
+              }
             }
           ]
         }
