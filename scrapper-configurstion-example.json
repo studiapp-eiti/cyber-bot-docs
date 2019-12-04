@@ -8,14 +8,10 @@
       "scrappers":[
         {
           "type":"GenericScrapper",
-          "implements":[
-              {
-                  "type": "Studia3"
-              }
-           ],
           "root_urls":[
             {
               "url":"https://studia3.elka.pw.edu.pl/file/19Z/103A-CBxxx-ISP-APRO1/prob",
+              "interface": {"name": "Studia3"},
               "sub_paths":{
                 "Wykłady":"/",
                 "Laboratoria":"/laboratoria.html"
@@ -30,18 +26,13 @@
       "scrappers":[
         {
           "type":"ApacheIndexesScrapper",
-          "implements":[
-            {
-              "type":"HttpAuth",
-              "options":{
-                "username":"analizy",
-                "password":"****"
-              }
-            }
-          ],
           "root_urls":[
             {
               "url":"http://www.mini.pw.edu.pl/~strozyna/dydakt",
+              "interface": {"name":"HttpAuth", 
+                  "options":{
+                    "username":"analizy",
+                    "password":"****"}},
               "sub_paths":{
                 "Wykłady":"/mat2-wyk",
                 "Projekt":"/mat2-proj"
