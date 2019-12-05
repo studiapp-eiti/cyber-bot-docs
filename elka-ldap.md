@@ -2,7 +2,7 @@
 Before issuing a login request we need to execute a GET to any page ex. `https://studia3.elka.pw.edu.pl/pl/19Z/` to get the STUDIA_SID cookie
 ```http
 POST /en/19Z/-/login-ldap HTTP/1.1
-Host: https://studia3.elka.pw.edu.pl
+Host: studia3.elka.pw.edu.pl
 Cookies: STUDIA_SID=$SESSION_ID$; STUDIA_COOKIES=YES;
 Content-Type: application/x-www-form-urlencoded
 
